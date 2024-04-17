@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Currículo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    #header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    #profile-image {
+      max-width: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+      border: 3px solid rgb(56, 14, 68);
+    }
+    #main-content {
+      padding: 20px;
+      text-align: center;
+      background-color: #fff;
+      background-image: linear-gradient(#A40BE6, #e6d70b);
+    }
+    #texto {
+      color: white;
+      text-shadow: 2px 0 #333, -2px 0 #333, 0 2px #333, 0 -2px #333, 1px 1px #333, -1px -1px #333, 1px -1px #333, -1px 1px #333;
+    }
+    button {
+      background-color: #4CAF50;
+      background-image: linear-gradient(white, gray);
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: white;
+      text-shadow: 2px 0 #333, -2px 0 #333, 0 2px #333, 0 -2px #333, 1px 1px #333, -1px -1px #333, 1px -1px #333, -1px 1px #333;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>Meu Currículo</h1>
+  </div>
+  <div id="main-content">
+    <h2>Dados Pessoais</h2>
+    <img id="profile-image" src="pics/transferir.jpg" alt="Foto de Perfil">
+    <div id="texto">
+      <p>Nome: Gustavo da Cruz Espíndola</p>
+      <p>E-mail: gustavo.espindola@aluno.fmpsc.edu.br</p>
+      <p>Telefone: (48) 8867-9254</p>
+    </div>
+    <h2>Experiência Profissional</h2>
+    <div id="texto">
+      <p>Cargo: </p>
+      <p>Empresa: </p>
+      <p>Descrição: </p>
+    </div>
+    <h2>Formação Acadêmica</h2>
+    <div id="texto">
+      <p>Curso: Análise e Desenvolvimento de Sistemas</p>
+      <p>Instituição: Faculdade Municipal de Palhoça</p>
+      <p>Ano de Conclusão: 2025</p>
+    </div>
+    <a href="https://google.com" target="_blank"><i class="fa fa-google" style="font-size:30px;color:black;"></i></a>
+    <a href="https://github.com" target="_blank"><i class="fa fa-github" style="font-size:30px;color:black;"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram" style="font-size:30px;color:black;"></i></a>
+    <p></p>
+    <button type="button"><a href="pag2.html">Ir para a 2ª página do currículo.</a></button>
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2ª Página Currículo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    #fundo {
+      background-color: #fff;
+      background-image: linear-gradient(#A40BE6, #e6d70b);
+    }
+    #main-content {
+      padding: 20px;
+      text-align: center;
+    }
+    #texto {
+      color: white;
+      text-shadow: 2px 0 #333, -2px 0 #333, 0 2px #333, 0 -2px #333, 1px 1px #333, -1px -1px #333, 1px -1px #333, -1px 1px #333;
+    }
+    #pic {
+      width: 400px;
+    }
+    button {
+      background-color: #4CAF50;
+      background-image: linear-gradient(white, gray);
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+    h1 {
+      color: white;
+      text-shadow: 2px 0 #333, -2px 0 #333, 0 2px #333, 0 -2px #333, 1px 1px #333, -1px -1px #333, 1px -1px #333, -1px 1px #333;
+    }
+  </style>
+</head>
+<body>
+  <div id="fundo">
+    <div id="main-content">
+      <h1>Página 2 do currículo</h1>
+      <img id="pic" src="pics/8f4b75ce9292825efa37a66ba85f3335.gif" alt="Floppa">
+      <button type="button"><a href="index.html">Voltar para a primeira página do currículo</a></button>
+    </div>
+  </div>
+</body>
+</html>
